@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<robot name="Pioneer 2" >   
+
+    <!-- <param name="webots_port" value="1234"/> -->
+    <webots>
+        <plugin type="olio_test.pioneer2_driver.Pioneer2Driver">
+            
+            <parametro1> Parametro Pioneer 3 </parametro1>
+        </plugin>
+        
+    </webots>
+<!-- 
+    <supervisor>True<supervisor> -->
+
+</robot>
+
+

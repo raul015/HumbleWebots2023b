@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<robot name="Beep"> 
+
+    <webots>
+        <plugin type="test_oggetto.beep_driver.BeepDriver">
+        </plugin> 
+    </webots>
+
+</robot>

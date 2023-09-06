@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<robot name="P-Rob3"> 
+    <webots>
+        
+        <plugin type="prob3_pack.prob3_driver_v2.MyRobotDriver">
+
+            <parametro1> Parametro 1 </parametro1>
+            <parametro2> Parametro 2 </parametro2>
+            <parametro3> Parametro 3 </parametro3>
+
+        </plugin>
+
+    </webots>
+</robot>
+
+

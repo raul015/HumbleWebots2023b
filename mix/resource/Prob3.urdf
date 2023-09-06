@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<robot name="P-Rob3"> 
+
+
+    <webots>
+        <plugin type="mix.prob3_driver.Prob3Driver">
+
+            <parametro1> Parametro Prb3Driver</parametro1>
+
+
+        </plugin>
+        
+    </webots>
+<!-- 
+    <supervisor>True<supervisor> -->
+
+</robot>
+
+

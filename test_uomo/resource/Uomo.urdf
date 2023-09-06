@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<robot name="pedestrian"> 
+
+    <webots>
+        <plugin type="test_uomo.uomo_driver.Pedestrian"> 
+        </plugin>
+        
+    </webots>
+
+</robot>
+
+

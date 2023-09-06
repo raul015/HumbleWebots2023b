@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+
+    <robot name='P-Rob3'>
+        <webots>
+
+
+            <device reference="gripper_middle_distance_sensor" type="DistanceSensor">
+                <ros>
+                    <topicName>gripper_middle_distance_sensor</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+            <device reference="left_finger_sensor_0" type="DistanceSensor">
+                <ros>
+                    <topicName>left_finger_sensor_0</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+            <device reference="left_finger_sensor_1" type="DistanceSensor">
+                <ros>
+                    <topicName>left_finger_sensor_1</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+            <device reference="left_finger_sensor_2" type="DistanceSensor">
+                <ros>
+                    <topicName>left_finger_sensor_2</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+            <device reference="left_finger_sensor_3" type="DistanceSensor">
+                <ros>
+                    <topicName>left_finger_sensor_3</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+
+            <device reference="right_finger_sensor_0" type="DistanceSensor">
+                <ros>
+                    <topicName>right_finger_sensor_0</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+            <device reference="right_finger_sensor_1" type="DistanceSensor">
+                <ros>
+                    <topicName>right_finger_sensor_1</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+            <device reference="right_finger_sensor_2" type="DistanceSensor">
+                <ros>
+                    <topicName>right_finger_sensor_2</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+            <device reference="right_finger_sensor_3" type="DistanceSensor">
+                <ros>
+                    <topicName>right_finger_sensor_3</topicName>
+                    <alwaysOn>true</alwaysOn>
+                </ros>
+            </device>
+
+
+            <plugin type="olio_test.prob3_driver.Prob3Driver">
+
+                <parametro1> Parametro P-rob3Driver</parametro1>
+
+            </plugin>
+            
+        </webots>
+
+    </robot>
+<!-- 
+
+    <supervisor>True<supervisor> -->
+
+<!--  </robot> -->

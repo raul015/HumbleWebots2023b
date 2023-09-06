@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+
+<robot name="TIAGo Base"> 
+
+    <webots>
+
+        <device reference="base_sonar_03_link" type="DistanceSensor" >
+            <ros>
+                <topicName>left_sensor</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+
+        <device reference="base_sonar_02_link" type="DistanceSensor">
+            <ros>
+                <topicName>middle_sensor</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+
+        <device reference="base_sonar_01_link" type="DistanceSensor">
+            <ros>
+                <topicName>right_sensor</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+
+
+        <!-- Device per il Lidar, da settare per bene i parametri del sensore  -->
+
+        <device reference="lidar" type="Lidar">
+            <ros>
+                <topicName>lidar</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+
+        <!-- Device per il sensore che rileva la luce nell'ambiente -->
+
+
+        <plugin type="test_oggetto.tiago_base_driver.TIAGODriver">
+
+            <parametro1> Parametro TIAGODriver</parametro1>
+
+
+        </plugin>
+        
+    </webots>
+<!-- 
+    <supervisor>True<supervisor> -->
+
+</robot>
+
+

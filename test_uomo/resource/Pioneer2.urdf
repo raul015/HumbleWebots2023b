@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<robot name="Pioneer 2"> 
+
+    <webots>
+        <plugin type="test_uomo.pioneer2_driver.Pioneer2Driver">
+
+            <parametro1> Parametro Pioneer 3 </parametro1>
+        </plugin>
+        
+    </webots>
+<!-- 
+    <supervisor>True<supervisor> -->
+
+</robot>
+
+
